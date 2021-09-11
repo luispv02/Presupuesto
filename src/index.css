@@ -1,13 +1,100 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background: linear-gradient(to right, #004e92, #000428); 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1{
+  text-align: center;
+  color: white;
+  margin: 3rem 0;
+  font-weight: lighter;
+  font-size: 5rem;
+}
+
+h2{
+  text-align: center;
+  font-size: 3rem;
+  color: #0065bd;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.contenedor{
+  background: #fff;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  padding: 3rem;
+}
+
+button[type="submit"]{
+  font-size:1.5rem;
+}
+
+.error{
+  text-align: center;
+  font-size: 1.5rem;
+  background: #ff0303a3;;
+  color: white;
+  padding: 10px;
+  margin: 1.3rem 0 ;
+}
+
+label{
+  display: block;
+  font-size: 1.3rem;
+  
+}
+
+input{
+  font-size: 1.4rem;
+}
+
+.presupuesto{
+  background: #65d4ff96;
+  padding: 5px;
+  color: blue;
+  font-size: 1.3rem;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  list-style: none;
+  border-bottom: 1px solid #ccc;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+ul li{
+  font-size: 1.5rem;
+}
+
+ul li:last-child{
+  background: #2424ffe6;
+  color: white;
+  padding: 2px 5px;
+}
+
+.total{
+  background: #03c52c9e;
+  padding: 5px;
+  color: #12520a;
+  font-size: 1.3rem;
+}
+
+.mitad{
+  background: #f9d5279e;
+  padding: 5px;
+  color: #756100;
+  font-size: 1.3rem;
+}
+
+.ultimo{
+  background: #ff262675;
+  padding: 5px;
+  color: #af0000;
+  font-size: 1.3rem;
 }
